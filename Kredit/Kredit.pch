@@ -1,0 +1,29 @@
+//
+//  Kredit.pch
+//  Kredit
+//
+//  Created by Noam Etzion-Rosenberg on 15-Oct-15.
+//  Copyright © 2015 PleasantLight. All rights reserved.
+//
+
+#ifndef Kredit_pch
+#define Kredit_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "LoggerHelper.h"
+
+#define RGB(r,g,b)      [UIColor colorWithRed:((r)/255.0) green:((g)/255.0) blue:((b)/255.0) alpha:1.0]
+#define RGBA(r,g,b,a)   [UIColor colorWithRed:((r)/255.0) green:((g)/255.0) blue:((b)/255.0) alpha:(a)]
+
+#define DEFINE_SHARED_INSTANCE_USING_BLOCK(block) \
+    static dispatch_once_t pred = 0; \
+    __strong static id _sharedObject = nil; \
+    dispatch_once(&pred, ^{ \
+        _sharedObject = block(); \
+    }); \
+    return _sharedObject; \
+
+
+#endif /* Kredit_pch */

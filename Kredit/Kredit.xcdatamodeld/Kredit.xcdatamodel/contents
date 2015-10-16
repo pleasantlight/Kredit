@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="8195" systemVersion="15A284" minimumToolsVersion="Automatic">
+    <entity name="Card" syncable="YES">
+        <attribute name="background_image_url" attributeType="String" syncable="YES"/>
+        <attribute name="card_number" attributeType="String" syncable="YES"/>
+        <attribute name="created" attributeType="Date" syncable="YES"/>
+        <attribute name="enabled" attributeType="Boolean" syncable="YES"/>
+        <attribute name="expiration_date" attributeType="String" syncable="YES"/>
+        <attribute name="first_name" attributeType="String" syncable="YES"/>
+        <attribute name="guid" attributeType="String" syncable="YES"/>
+        <attribute name="last_name" attributeType="String" syncable="YES"/>
+        <attribute name="updated" attributeType="Date" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Card" positionX="-63" positionY="-18" width="128" height="180"/>
+    </elements>
+</model>

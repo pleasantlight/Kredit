@@ -1,0 +1,26 @@
+{
+  "results": [
+    {
+      "updated": "2015-01-21T18:28:07-0800",
+      "card_number": "3795 709408 58249",
+      "background_image_url": "https://s3.amazonaws.com/mobile.coin.vc/ios/ assignment/card_background_amex.png",
+      "enabled": true,
+      "last_name": "McMullen",
+      "expiration_date": "10/2015",
+      "created": "2014-11-26T13:48:07-0800",
+      "guid": "a4f74bc9-05b4-4afd-976a-e25b1258fe67",
+      "first_name": "Jeremy"
+    },
+    {
+      "updated": "2014-11-27T06:54:07-0800",
+      "card_number": "3769 918383 88565",
+      "background_image_url": "https://s3.amazonaws.com/mobile.coin.vc/ios/assignment/card_background_amex.png",
+      "enabled": true,
+      "last_name": "Green",
+      "expiration_date": "10/2015",
+      "created": "2014-09-28T20:26:07-0800",
+      "guid": "bed24ac7-9d37-476c-bbf6-912cc7c68ee1",
+      "first_name": "Donald"
+    }
+  ]
+}

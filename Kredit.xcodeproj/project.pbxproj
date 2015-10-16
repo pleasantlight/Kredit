@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA4D1F881BD04382001772B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA4D1F871BD04382001772B5 /* main.m */; };
+		CA4D1F8B1BD04382001772B5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA4D1F8A1BD04382001772B5 /* AppDelegate.m */; };
+		CA4D1F8E1BD04382001772B5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA4D1F8D1BD04382001772B5 /* ViewController.m */; };
+		CA4D1F911BD04382001772B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA4D1F8F1BD04382001772B5 /* Main.storyboard */; };
+		CA4D1F941BD04382001772B5 /* Kredit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CA4D1F921BD04382001772B5 /* Kredit.xcdatamodeld */; };
+		CA4D1F961BD04382001772B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA4D1F951BD04382001772B5 /* Assets.xcassets */; };
+		CA4D1F991BD04382001772B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA4D1F971BD04382001772B5 /* LaunchScreen.storyboard */; };
+		CA543AEB1BD0543F004D31A8 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA543AE91BD0543F004D31A8 /* Fabric.framework */; settings = {ASSET_TAGS = (); }; };
+		CA543AEC1BD0543F004D31A8 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA543AEA1BD0543F004D31A8 /* Crashlytics.framework */; settings = {ASSET_TAGS = (); }; };
+		CA543AF11BD05607004D31A8 /* LoggerHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = CA543AF01BD05607004D31A8 /* LoggerHelper.m */; settings = {ASSET_TAGS = (); }; };
+		CA543AF71BD06F3F004D31A8 /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CA543AF61BD06F3F004D31A8 /* DataManager.m */; settings = {ASSET_TAGS = (); }; };
+		CA543AF91BD07240004D31A8 /* sample_data.json in Resources */ = {isa = PBXBuildFile; fileRef = CA543AF81BD07240004D31A8 /* sample_data.json */; settings = {ASSET_TAGS = (); }; };
+		CA543AFD1BD0823C004D31A8 /* CommManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CA543AFC1BD0823C004D31A8 /* CommManager.m */; settings = {ASSET_TAGS = (); }; };
+		CA543B0A1BD0A7D9004D31A8 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = CA543B041BD0A7D9004D31A8 /* logo.png */; settings = {ASSET_TAGS = (); }; };
+		CA543B0B1BD0A7D9004D31A8 /* logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA543B051BD0A7D9004D31A8 /* logo@2x.png */; settings = {ASSET_TAGS = (); }; };
+		CA543B0C1BD0A7D9004D31A8 /* logo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA543B061BD0A7D9004D31A8 /* logo@3x.png */; settings = {ASSET_TAGS = (); }; };
+		CA543B0D1BD0A7D9004D31A8 /* navbar_background.png in Resources */ = {isa = PBXBuildFile; fileRef = CA543B071BD0A7D9004D31A8 /* navbar_background.png */; settings = {ASSET_TAGS = (); }; };
+		CA543B0E1BD0A7D9004D31A8 /* navbar_background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA543B081BD0A7D9004D31A8 /* navbar_background@2x.png */; settings = {ASSET_TAGS = (); }; };
+		CA543B0F1BD0A7D9004D31A8 /* navbar_background@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA543B091BD0A7D9004D31A8 /* navbar_background@3x.png */; settings = {ASSET_TAGS = (); }; };
+		CA543B171BD0AAC0004D31A8 /* kredit back.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CA543B131BD0AAC0004D31A8 /* kredit back.ttf */; settings = {ASSET_TAGS = (); }; };
+		CA543B181BD0AAC0004D31A8 /* kredit front.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CA543B141BD0AAC0004D31A8 /* kredit front.ttf */; settings = {ASSET_TAGS = (); }; };
+		CA543B191BD0AAC0004D31A8 /* kredit shine.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CA543B151BD0AAC0004D31A8 /* kredit shine.ttf */; settings = {ASSET_TAGS = (); }; };
+		CA543B1A1BD0AAC0004D31A8 /* kredit.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CA543B161BD0AAC0004D31A8 /* kredit.ttf */; settings = {ASSET_TAGS = (); }; };
+		CA543B201BD0AD56004D31A8 /* CardTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CA543B1E1BD0AD56004D31A8 /* CardTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		CA543B211BD0AD56004D31A8 /* CardTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA543B1F1BD0AD56004D31A8 /* CardTableViewCell.xib */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CA4D1F831BD04382001772B5 /* Kredit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kredit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA4D1F871BD04382001772B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CA4D1F891BD04382001772B5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CA4D1F8A1BD04382001772B5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CA4D1F8C1BD04382001772B5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CA4D1F8D1BD04382001772B5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CA4D1F901BD04382001772B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA4D1F931BD04382001772B5 /* Kredit.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Kredit.xcdatamodel; sourceTree = "<group>"; };
+		CA4D1F951BD04382001772B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA4D1F981BD04382001772B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA4D1F9A1BD04382001772B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA543AE91BD0543F004D31A8 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		CA543AEA1BD0543F004D31A8 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
+		CA543AEF1BD05607004D31A8 /* LoggerHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoggerHelper.h; path = Helpers/LoggerHelper.h; sourceTree = "<group>"; };
+		CA543AF01BD05607004D31A8 /* LoggerHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoggerHelper.m; path = Helpers/LoggerHelper.m; sourceTree = "<group>"; };
+		CA543AF21BD05692004D31A8 /* Kredit.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Kredit.pch; sourceTree = "<group>"; };
+		CA543AF51BD06F3F004D31A8 /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DataManager.h; path = Managers/DataManager/DataManager.h; sourceTree = "<group>"; };
+		CA543AF61BD06F3F004D31A8 /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DataManager.m; path = Managers/DataManager/DataManager.m; sourceTree = "<group>"; };
+		CA543AF81BD07240004D31A8 /* sample_data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sample_data.json; sourceTree = "<group>"; };
+		CA543AFB1BD0823C004D31A8 /* CommManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CommManager.h; path = Managers/CommManager/CommManager.h; sourceTree = "<group>"; };
+		CA543AFC1BD0823C004D31A8 /* CommManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CommManager.m; path = Managers/CommManager/CommManager.m; sourceTree = "<group>"; };
+		CA543B041BD0A7D9004D31A8 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = Assets/logo.png; sourceTree = "<group>"; };
+		CA543B051BD0A7D9004D31A8 /* logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo@2x.png"; path = "Assets/logo@2x.png"; sourceTree = "<group>"; };
+		CA543B061BD0A7D9004D31A8 /* logo@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo@3x.png"; path = "Assets/logo@3x.png"; sourceTree = "<group>"; };
+		CA543B071BD0A7D9004D31A8 /* navbar_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = navbar_background.png; path = Assets/navbar_background.png; sourceTree = "<group>"; };
+		CA543B081BD0A7D9004D31A8 /* navbar_background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "navbar_background@2x.png"; path = "Assets/navbar_background@2x.png"; sourceTree = "<group>"; };
+		CA543B091BD0A7D9004D31A8 /* navbar_background@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "navbar_background@3x.png"; path = "Assets/navbar_background@3x.png"; sourceTree = "<group>"; };
+		CA543B131BD0AAC0004D31A8 /* kredit back.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "kredit back.ttf"; path = "Assets/Fonts/kredit back.ttf"; sourceTree = "<group>"; };
+		CA543B141BD0AAC0004D31A8 /* kredit front.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "kredit front.ttf"; path = "Assets/Fonts/kredit front.ttf"; sourceTree = "<group>"; };
+		CA543B151BD0AAC0004D31A8 /* kredit shine.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "kredit shine.ttf"; path = "Assets/Fonts/kredit shine.ttf"; sourceTree = "<group>"; };
+		CA543B161BD0AAC0004D31A8 /* kredit.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = kredit.ttf; path = Assets/Fonts/kredit.ttf; sourceTree = "<group>"; };
+		CA543B1D1BD0AD56004D31A8 /* CardTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CardTableViewCell.h; path = Views/CardTableViewCell/CardTableViewCell.h; sourceTree = "<group>"; };
+		CA543B1E1BD0AD56004D31A8 /* CardTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CardTableViewCell.m; path = Views/CardTableViewCell/CardTableViewCell.m; sourceTree = "<group>"; };
+		CA543B1F1BD0AD56004D31A8 /* CardTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CardTableViewCell.xib; path = Views/CardTableViewCell/CardTableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA4D1F801BD04381001772B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA543AEC1BD0543F004D31A8 /* Crashlytics.framework in Frameworks */,
+				CA543AEB1BD0543F004D31A8 /* Fabric.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA4D1F7A1BD04381001772B5 = {
+			isa = PBXGroup;
+			children = (
+				CA4D1F851BD04382001772B5 /* Kredit */,
+				CA543AED1BD0544D004D31A8 /* Frameworks */,
+				CA4D1F841BD04382001772B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA4D1F841BD04382001772B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA4D1F831BD04382001772B5 /* Kredit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA4D1F851BD04382001772B5 /* Kredit */ = {
+			isa = PBXGroup;
+			children = (
+				CA4D1F891BD04382001772B5 /* AppDelegate.h */,
+				CA4D1F8A1BD04382001772B5 /* AppDelegate.m */,
+				CA4D1F8C1BD04382001772B5 /* ViewController.h */,
+				CA4D1F8D1BD04382001772B5 /* ViewController.m */,
+				CA4D1F8F1BD04382001772B5 /* Main.storyboard */,
+				CA4D1F951BD04382001772B5 /* Assets.xcassets */,
+				CA4D1F971BD04382001772B5 /* LaunchScreen.storyboard */,
+				CA4D1F9A1BD04382001772B5 /* Info.plist */,
+				CA4D1F921BD04382001772B5 /* Kredit.xcdatamodeld */,
+				CA543AFE1BD08B5E004D31A8 /* Models */,
+				CA543B1B1BD0AD1A004D31A8 /* Views */,
+				CA543AF31BD06EF7004D31A8 /* Managers */,
+				CA543AEE1BD055F4004D31A8 /* Helpers */,
+				CA543B031BD0A7BF004D31A8 /* Assets */,
+				CA4D1F861BD04382001772B5 /* Supporting Files */,
+			);
+			path = Kredit;
+			sourceTree = "<group>";
+		};
+		CA4D1F861BD04382001772B5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA4D1F871BD04382001772B5 /* main.m */,
+				CA543AF21BD05692004D31A8 /* Kredit.pch */,
+				CA543AF81BD07240004D31A8 /* sample_data.json */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CA543AED1BD0544D004D31A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA543AE91BD0543F004D31A8 /* Fabric.framework */,
+				CA543AEA1BD0543F004D31A8 /* Crashlytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA543AEE1BD055F4004D31A8 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				CA543AEF1BD05607004D31A8 /* LoggerHelper.h */,
+				CA543AF01BD05607004D31A8 /* LoggerHelper.m */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		CA543AF31BD06EF7004D31A8 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				CA543AFA1BD08222004D31A8 /* Comm Manager */,
+				CA543AF41BD06F10004D31A8 /* Data Manager */,
+			);
+			name = Managers;
+			sourceTree = "<group>";
+		};
+		CA543AF41BD06F10004D31A8 /* Data Manager */ = {
+			isa = PBXGroup;
+			children = (
+				CA543AF51BD06F3F004D31A8 /* DataManager.h */,
+				CA543AF61BD06F3F004D31A8 /* DataManager.m */,
+			);
+			name = "Data Manager";
+			sourceTree = "<group>";
+		};
+		CA543AFA1BD08222004D31A8 /* Comm Manager */ = {
+			isa = PBXGroup;
+			children = (
+				CA543AFB1BD0823C004D31A8 /* CommManager.h */,
+				CA543AFC1BD0823C004D31A8 /* CommManager.m */,
+			);
+			name = "Comm Manager";
+			sourceTree = "<group>";
+		};
+		CA543AFE1BD08B5E004D31A8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		CA543B031BD0A7BF004D31A8 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				CA543B121BD0AAB5004D31A8 /* Fonts */,
+				CA543B041BD0A7D9004D31A8 /* logo.png */,
+				CA543B051BD0A7D9004D31A8 /* logo@2x.png */,
+				CA543B061BD0A7D9004D31A8 /* logo@3x.png */,
+				CA543B071BD0A7D9004D31A8 /* navbar_background.png */,
+				CA543B081BD0A7D9004D31A8 /* navbar_background@2x.png */,
+				CA543B091BD0A7D9004D31A8 /* navbar_background@3x.png */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		CA543B121BD0AAB5004D31A8 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				CA543B131BD0AAC0004D31A8 /* kredit back.ttf */,
+				CA543B141BD0AAC0004D31A8 /* kredit front.ttf */,
+				CA543B151BD0AAC0004D31A8 /* kredit shine.ttf */,
+				CA543B161BD0AAC0004D31A8 /* kredit.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		CA543B1B1BD0AD1A004D31A8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CA543B1C1BD0AD29004D31A8 /* Card Table View Cell */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		CA543B1C1BD0AD29004D31A8 /* Card Table View Cell */ = {
+			isa = PBXGroup;
+			children = (
+				CA543B1D1BD0AD56004D31A8 /* CardTableViewCell.h */,
+				CA543B1E1BD0AD56004D31A8 /* CardTableViewCell.m */,
+				CA543B1F1BD0AD56004D31A8 /* CardTableViewCell.xib */,
+			);
+			name = "Card Table View Cell";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA4D1F821BD04381001772B5 /* Kredit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA4D1F9D1BD04382001772B5 /* Build configuration list for PBXNativeTarget "Kredit" */;
+			buildPhases = (
+				CA4D1F7F1BD04381001772B5 /* Sources */,
+				CA4D1F801BD04381001772B5 /* Frameworks */,
+				CA4D1F811BD04381001772B5 /* Resources */,
+				CA543AE81BD053CB004D31A8 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kredit;
+			productName = Kredit;
+			productReference = CA4D1F831BD04382001772B5 /* Kredit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA4D1F7B1BD04381001772B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = PleasantLight;
+				TargetAttributes = {
+					CA4D1F821BD04381001772B5 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = CA4D1F7E1BD04381001772B5 /* Build configuration list for PBXProject "Kredit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA4D1F7A1BD04381001772B5;
+			productRefGroup = CA4D1F841BD04382001772B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA4D1F821BD04381001772B5 /* Kredit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA4D1F811BD04381001772B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA543B171BD0AAC0004D31A8 /* kredit back.ttf in Resources */,
+				CA4D1F991BD04382001772B5 /* LaunchScreen.storyboard in Resources */,
+				CA543B211BD0AD56004D31A8 /* CardTableViewCell.xib in Resources */,
+				CA543B0F1BD0A7D9004D31A8 /* navbar_background@3x.png in Resources */,
+				CA543B0D1BD0A7D9004D31A8 /* navbar_background.png in Resources */,
+				CA543B0B1BD0A7D9004D31A8 /* logo@2x.png in Resources */,
+				CA543B0A1BD0A7D9004D31A8 /* logo.png in Resources */,
+				CA543B191BD0AAC0004D31A8 /* kredit shine.ttf in Resources */,
+				CA4D1F961BD04382001772B5 /* Assets.xcassets in Resources */,
+				CA4D1F911BD04382001772B5 /* Main.storyboard in Resources */,
+				CA543B181BD0AAC0004D31A8 /* kredit front.ttf in Resources */,
+				CA543B0E1BD0A7D9004D31A8 /* navbar_background@2x.png in Resources */,
+				CA543B1A1BD0AAC0004D31A8 /* kredit.ttf in Resources */,
+				CA543B0C1BD0A7D9004D31A8 /* logo@3x.png in Resources */,
+				CA543AF91BD07240004D31A8 /* sample_data.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CA543AE81BD053CB004D31A8 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run b61dd01b14edfbb0ec02c65b9394fa0e35b31bf0 1e718a9e1ee22dca145524e2ee69140af276d843606999a507b375e3dfdea9cb";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA4D1F7F1BD04381001772B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA4D1F8E1BD04382001772B5 /* ViewController.m in Sources */,
+				CA543AF71BD06F3F004D31A8 /* DataManager.m in Sources */,
+				CA4D1F8B1BD04382001772B5 /* AppDelegate.m in Sources */,
+				CA543B201BD0AD56004D31A8 /* CardTableViewCell.m in Sources */,
+				CA4D1F941BD04382001772B5 /* Kredit.xcdatamodeld in Sources */,
+				CA4D1F881BD04382001772B5 /* main.m in Sources */,
+				CA543AF11BD05607004D31A8 /* LoggerHelper.m in Sources */,
+				CA543AFD1BD0823C004D31A8 /* CommManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CA4D1F8F1BD04382001772B5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA4D1F901BD04382001772B5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA4D1F971BD04382001772B5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA4D1F981BD04382001772B5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA4D1F9B1BD04382001772B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CA4D1F9C1BD04382001772B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA4D1F9E1BD04382001772B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PRODUCT_NAME)/Kredit.pch";
+				INFOPLIST_FILE = Kredit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pleasantlight.Kredit;
+				PRODUCT_NAME = Kredit;
+			};
+			name = Debug;
+		};
+		CA4D1F9F1BD04382001772B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PRODUCT_NAME)/Kredit.pch";
+				INFOPLIST_FILE = Kredit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pleasantlight.Kredit;
+				PRODUCT_NAME = Kredit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA4D1F7E1BD04381001772B5 /* Build configuration list for PBXProject "Kredit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA4D1F9B1BD04382001772B5 /* Debug */,
+				CA4D1F9C1BD04382001772B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA4D1F9D1BD04382001772B5 /* Build configuration list for PBXNativeTarget "Kredit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA4D1F9E1BD04382001772B5 /* Debug */,
+				CA4D1F9F1BD04382001772B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CA4D1F921BD04382001772B5 /* Kredit.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CA4D1F931BD04382001772B5 /* Kredit.xcdatamodel */,
+			);
+			currentVersion = CA4D1F931BD04382001772B5 /* Kredit.xcdatamodel */;
+			path = Kredit.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CA4D1F7B1BD04381001772B5 /* Project object */;
+}
